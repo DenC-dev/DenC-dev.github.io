@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dennis Crowley</title>
+<meta name="description" content="Dennis Crowley: computational work on the languages of Timor, Timucua, contemporary Irish and the Khitan small script.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg stroke='%231a1a1a' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M16 5v22M6.5 10.5l19 11M6.5 21.5l19-11'/%3E%3C/g%3E%3C/svg%3E">
+<style>
+body{margin:0;background:#fff;color:#1a1a1a;font-family:Charter,'Bitstream Charter','Sitka Text',Cambria,Georgia,serif;font-size:18px;line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:72px 24px 64px}
+a{color:#1a55b8;text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:#1a1a1a}
+p{margin:0 0 16px;text-wrap:pretty}
+h1{margin:0 0 20px;font-size:28px;line-height:1.2;cursor:default;-webkit-user-select:none;user-select:none}
+h2{margin:56px 0 24px;font-size:21px;line-height:1.3}
+h3{margin:0;font-size:18px;line-height:1.4}
+h4{margin:28px 0 8px;font-size:16px}
+.row{display:flex;flex-wrap:wrap;gap:0 10px;color:#6b6b6b;margin:0}
+.entry{margin:0 0 40px}
+.meta{margin:2px 0 4px;font-size:16px;color:#5c5c5c}
+.links{margin:0 0 10px;font-size:16px;color:#6b6b6b}
+.small{font-size:16px}
+ul{margin:0 0 16px;padding-left:22px}
+li{margin:0 0 6px}
+details{margin:12px 0 0;font-size:16px;line-height:1.55}
+summary{cursor:pointer;color:#1a55b8;width:max-content;max-width:100%}
+summary:hover{color:#1a1a1a}
+details[open] summary{margin-bottom:12px}
+.scroll{overflow-x:auto;margin:0 0 16px}
+@media (min-width:960px){.wide{width:880px;margin-left:-120px}}
+td .st{display:block;color:#6b6b6b;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.4;font-variant-numeric:tabular-nums}
+th,td{text-align:left;vertical-align:top;padding:5px 10px 5px 0;border-bottom:1px solid #e4e4e4}
+th{font-weight:700;border-bottom-color:#bdbdbd;white-space:nowrap}
+td.n{text-align:right;white-space:nowrap}
+footer{margin-top:64px;font-size:14px;color:#6b6b6b}
+:focus-visible{outline:2px solid #1a55b8;outline-offset:2px}
+#rec-note{display:none;margin:0 0 20px;font-size:15px;color:#5c5c5c;font-style:italic}
+.rec #rec-note{display:block}
+.rec h1::before,.rec h2::before,.rec h3::before,.rec h4::before{content:"*"}
+#croc{position:fixed;left:0;bottom:14px;pointer-events:none;opacity:0;transform:translateX(-240px);font-size:14px;color:#5c5c5c;background:#fff;padding:4px 8px;max-width:240px}
+#croc.go{animation:swim 11s linear forwards}
+@keyframes swim{0%{opacity:1;transform:translateX(-240px)}100%{opacity:1;transform:translateX(calc(100vw + 20px))}}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1a1a1a;color:#fff;font-size:14px;padding:6px 12px;border-radius:3px;opacity:0;transition:opacity .3s;pointer-events:none}
+#toast.show{opacity:1}
+@media (prefers-reduced-motion:reduce){#croc.go{animation:fade 6s forwards;transform:translateX(24px)}@keyframes fade{0%,85%{opacity:1}100%{opacity:0}}}
+</style>
+</head>
+<body>
+<main>
+<p id="rec-note">Reconstruction mode. Every form on this page is now unattested.</p>
+<h1 id="name">Dennis Crowley</h1>
+
+<p>I’m a political science student at Florida State University, where I also work as a research assistant in the political science department. Most of my own research is about languages. I’m head researcher at Phaistos Labs, where our team of four works on the Austronesian languages of Timor and on Timucua, an extinct language of northern Florida. I’ve also started working on the Khitan small script.</p>
+
+<p>I mostly use computational methods, like automated cognate detection and phylogenetic trees, on languages that don’t have much data behind them. Wherever I can, the code and data go up on GitHub so anyone can rerun the analysis.</p>
+
+<p class="row">
+<a href="mailto:dennisjohncrowley@gmail.com">dennisjohncrowley@gmail.com</a>
+<span aria-hidden="true">/</span>
+<a href="https://github.com/DenC-dev">GitHub</a>
+<span aria-hidden="true">/</span>
+<a href="https://github.com/Project-Phaistos">Phaistos Labs on GitHub</a>
+<span aria-hidden="true">/</span>
+<a href="https://www.linkedin.com/in/denniscrowleyfsu">LinkedIn</a>
+</p>
+
+<h2>Research</h2>
+
+<div class="entry">
+<h3><a href="https://denc-dev.github.io/liabut/">Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor’s Austronesian languages</a></h3>
+<p class="meta"><em>Liabut. Phaistos Labs working paper, version 4, November 2026 (not peer reviewed)</em></p>
+<p class="links"><a href="https://github.com/DenC-dev/liabut/blob/main/paper/liabut.pdf">paper</a> / <a href="https://github.com/DenC-dev/liabut/blob/main/paper/liabut_supplement.pdf">supplement</a> / <a href="https://denc-dev.github.io/liabut/">website</a> / <a href="https://github.com/DenC-dev/liabut">code and data</a> / <a href="https://github.com/DenC-dev/liabut/blob/main/REPLICATION.md">how to reproduce</a></p>
+<p>Hull groups Idaté and Lakalei with Mambae, Kemak and Tokodede, while Grimes and Edwards (2026) put them in Timor-Babar, the group defined by the sound change *p &gt; h. I tested both classifications against <a href="https://github.com/lessersunda/lexirumah-data">LexiRumah</a> word lists with a plan registered before the analysis: automated cognate detection, Bayesian and maximum-likelihood trees, sound-change evidence and contact-aware trees. The pre-registered verdict is unresolved: the vocabulary doesn’t settle where Idaté and Lakalei belong. On a second question, whether Welaun is a Tetun dialect or a Central Timor language, the evidence leans toward Central Timor, as Edwards argued, once borrowable words are set aside. The name is Tetun: <i>lia</i> ‘word’ plus <i>abut</i> ‘root’.</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://project-phaistos.github.io/project-timacua/">Recovering Timucua: A Computer-Assisted Framework for Text Analysis and Contact Detection in Mikasuki and Muscogee</a></h3>
+<p class="meta"><em>Phaistos Labs research proposal and pilot database, 2026</em></p>
+<p class="links"><a href="https://project-phaistos.github.io/project-timacua/">website</a> / <a href="https://github.com/Project-Phaistos/project-timacua">database</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/Wordlist-metadata.json">CLDF</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/db/project-phaistos.sqlite">SQLite</a></p>
+<p>Timucua is an extinct language isolate from northern Florida, written down in a large bilingual corpus produced between 1612 and 1635. The project has two parts: automatically glossing the Timucua texts, and testing whether Timucua left borrowed words in Mikasuki or Muscogee. The pre-registered pilot for the second part found no Timucua layer, and the same test can only rule out a large one.</p>
+<details>
+<summary>Pilot data and results</summary>
+
+<h4>Background</h4>
+<p>The 1612 catechisms are the earliest writing in any Native language of what is now the United States. Besides the printed texts there are two letters written by native speakers in the mid-1600s, and a modern reference grammar (<a href="https://www.nebraskapress.unl.edu/nebraska/9781496237781/the-timucua-language/">Broadwell 2024</a>). Contact could have happened in two windows: Georgia-era captive-taking around 1659 to 1715, and Seminole settlement of Florida around 1750 to 1763. Comparing Georgia-era Hitchiti with Florida Mikasuki is the main way to tell them apart.</p>
+<p>The glossing half is waiting on access to Broadwell’s corpus. Its scoring code is already in the repository.</p>
+
+<h4>What’s in the database</h4>
+<p>67 languages, 100 concepts, 6,799 word forms and 2,424 cognate judgments, released as a CLDF wordlist and an SQLite database.</p>
+<div class="scroll"><table>
+<thead><tr><th>Group</th><th>Lists</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Possible donor</td><td>Timucua</td><td>ASJP (Granberry 1993)</td></tr>
+<tr><td>Muskogean</td><td>Mikasuki, Creek, Alabama, Koasati, Choctaw, Chickasaw</td><td>ASJP</td></tr>
+<tr><td>Muskogean, added by hand</td><td>Hitchiti (Gatschet 1884), Hitchiti (Haas 1937), Apalachee (Kimball 1988)</td><td>transcribed from the sources</td></tr>
+<tr><td>Reconstruction</td><td>Proto-Muskogean (33 concepts)</td><td>ASJP list of Booker (2005)</td></tr>
+<tr><td>Calibration</td><td>Mobilian Jargon, Yuchi, Natchez, Warao, Spanish, English</td><td>ASJP</td></tr>
+<tr><td>Controls</td><td>50 languages, one per family, outside North America</td><td>ASJP</td></tr>
+</tbody>
+</table></div>
+
+<h4>Findings</h4>
+<ul>
+<li>No Timucua layer in Mikasuki, the pre-registered test: z = 0.64, p = 0.26. Timucua ranks 29th of 51 candidate donors, and every Creek, measure and robustness variant agrees.</li>
+<li>The null has limits. The same design picks up inheritance and pidginization but misses documented Yuchi–Creek and Natchez–Creek contact at 33 to 38 concepts, so it rules out only a large layer.</li>
+<li>The three Mikasuki words with no Muskogean cognate that 1880s Hitchiti also covers (who, tree, fire) are all attested in Hitchiti, so they predate the move into Florida.</li>
+<li>Apalachee against Timucua is null too (z = −0.70).</li>
+<li>A post hoc lead runs the other way, from Muskogean into Timucua: <i>efa</i> ‘dog’, <i>neha</i> ‘grease’ and <i>ilake</i> ‘night’.</li>
+<li>On method, a plain permutation test flags 8 to 30% of unrelated language pairs. The two-way rank rule used here brings that down to about 2%.</li>
+</ul>
+
+<h4>All 32 tests</h4>
+<p class="small">z and p come from the permutation test. Under each test is its status: the confirmatory test, a secondary or sensitivity check, an addendum, or a descriptive, exploratory or calibration run.</p>
+<div class="scroll wide"><table>
+<thead><tr><th>Test</th><th>Recipient × donor</th><th>Concepts</th><th>Measure</th><th>N</th><th>z</th><th>p</th><th>Verdict</th></tr></thead>
+<tbody>
+<tr><td>H2<span class=st>confirmatory</span></td><td>Mikasuki × Timucua</td><td>residue</td><td>SCA</td><td class=n>15</td><td class=n>0.64</td><td class=n>0.259</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>strict residue</td><td>SCA</td><td class=n>6</td><td class=n>0.37</td><td class=n>0.339</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>residue, European-flagged kept</td><td>SCA</td><td class=n>15</td><td class=n>0.64</td><td class=n>0.259</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>residue</td><td>SCA</td><td class=n>26</td><td class=n>−0.57</td><td class=n>0.712</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>strict residue</td><td>SCA</td><td class=n>14</td><td class=n>−0.05</td><td class=n>0.512</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>residue, European-flagged kept</td><td>SCA</td><td class=n>29</td><td class=n>−0.83</td><td class=n>0.798</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>residue</td><td>NED</td><td class=n>15</td><td class=n>0.79</td><td class=n>0.207</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>strict residue</td><td>NED</td><td class=n>6</td><td class=n>0.78</td><td class=n>0.212</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>residue, European-flagged kept</td><td>NED</td><td class=n>15</td><td class=n>0.79</td><td class=n>0.207</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>residue</td><td>NED</td><td class=n>26</td><td class=n>−0.23</td><td class=n>0.585</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>strict residue</td><td>NED</td><td class=n>14</td><td class=n>0.82</td><td class=n>0.206</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>residue, European-flagged kept</td><td>NED</td><td class=n>29</td><td class=n>−0.28</td><td class=n>0.605</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>residue</td><td>TPG</td><td class=n>15</td><td class=n>−0.68</td><td class=n>1.000</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>strict residue</td><td>TPG</td><td class=n>6</td><td class=n>−0.27</td><td class=n>1.000</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Mikasuki × Timucua</td><td>residue, European-flagged kept</td><td>TPG</td><td class=n>15</td><td class=n>−0.68</td><td class=n>1.000</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>residue</td><td>TPG</td><td class=n>26</td><td class=n>−0.86</td><td class=n>1.000</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>strict residue</td><td>TPG</td><td class=n>14</td><td class=n>−0.56</td><td class=n>1.000</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>secondary</span></td><td>Creek × Timucua</td><td>residue, European-flagged kept</td><td>TPG</td><td class=n>29</td><td class=n>−0.95</td><td class=n>1.000</td><td>H0 retained</td></tr>
+<tr><td>H2<span class=st>sensitivity</span></td><td>Mikasuki × Timucua</td><td>residue, stratified</td><td>SCA</td><td class=n>15</td><td class=n>0.53</td><td class=n>0.296</td><td>H0 retained</td></tr>
+<tr><td>descriptive</td><td>Mikasuki × Timucua</td><td>full list</td><td>SCA</td><td class=n>82</td><td class=n>1.17</td><td class=n>0.125</td><td>H0 retained</td></tr>
+<tr><td>descriptive</td><td>Creek × Timucua</td><td>full list</td><td>SCA</td><td class=n>83</td><td class=n>1.68</td><td class=n>0.049</td><td>H0 retained</td></tr>
+<tr><td>exploratory</td><td>Warao × Timucua</td><td>all shared concepts</td><td>SCA</td><td class=n>85</td><td class=n>0.57</td><td class=n>0.284</td><td>H0 retained</td></tr>
+<tr><td>H3</td><td>Timucua × Muskogean (inherited)</td><td>all shared concepts</td><td>SCA</td><td class=n>63</td><td class=n>0.89</td><td class=n>0.184</td><td>H0 retained</td></tr>
+<tr><td>H4<span class=st>addendum 1</span></td><td>Apalachee × Timucua</td><td>24 Apalachee concepts</td><td>SCA</td><td class=n>24</td><td class=n>−0.70</td><td class=n>0.745</td><td>H0 retained</td></tr>
+<tr><td>H4<span class=st>addendum 1 comparison</span></td><td>Mikasuki × Timucua</td><td>same 24 concepts</td><td>SCA</td><td class=n>23</td><td class=n>−1.34</td><td class=n>0.916</td><td>H0 retained</td></tr>
+<tr><td>H1 (Georgia-era check)<span class=st>addendum 2, descriptive</span></td><td>Hitchiti (1884) × Timucua</td><td>28 shared concepts</td><td>SCA</td><td class=n>28</td><td class=n>−0.27</td><td class=n>0.604</td><td>H0 retained</td></tr>
+<tr><td>H1 (Georgia-era check)<span class=st>addendum 2, descriptive</span></td><td>Hitchiti (1884) × Timucua</td><td>6 Hitchiti residue concepts</td><td>SCA</td><td class=n>6</td><td class=n>−0.92</td><td class=n>0.815</td><td>H0 retained</td></tr>
+<tr><td>calibration<span class=st>validation (before freezing)</span></td><td>Mobilian Jargon × Choctaw</td><td>37 shared concepts</td><td>SCA</td><td class=n>37</td><td class=n>21.39</td><td class=n>&lt;&#8202;0.001</td><td>detected</td></tr>
+<tr><td>calibration<span class=st>validation (before freezing)</span></td><td>Mikasuki × Creek</td><td>95 shared concepts</td><td>SCA</td><td class=n>95</td><td class=n>18.65</td><td class=n>&lt;&#8202;0.001</td><td>detected</td></tr>
+<tr><td>calibration<span class=st>validation (before freezing)</span></td><td>Koasati × Alabama</td><td>95 shared concepts</td><td>SCA</td><td class=n>95</td><td class=n>31.09</td><td class=n>&lt;&#8202;0.001</td><td>detected</td></tr>
+<tr><td>calibration<span class=st>validation (before freezing)</span></td><td>Yuchi × Creek</td><td>33 shared concepts</td><td>SCA</td><td class=n>33</td><td class=n>1.10</td><td class=n>0.133</td><td>not detected</td></tr>
+<tr><td>calibration<span class=st>validation (before freezing)</span></td><td>Natchez × Creek</td><td>38 shared concepts</td><td>SCA</td><td class=n>38</td><td class=n>0.98</td><td class=n>0.162</td><td>not detected</td></tr>
+</tbody>
+</table></div>
+
+<h4>Place names</h4>
+<p class="small">22 Timucua-period names and 2 modern names often mistaken for Timucua, with whether each survives today and an evidence grade. Notes and sources for every row are in <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/place_names.csv">place_names.csv</a>.</p>
+<div class="scroll wide"><table>
+<thead><tr><th>Timucua-period name</th><th>Where</th><th>Modern name</th><th>Survives</th><th>Grade</th></tr></thead>
+<tbody>
+<tr><td>Ocale</td><td>SW Marion County, near the Withlacoochee River</td><td>Ocala (city, est. 1849)</td><td>yes</td><td>A: continuity documented; route unknown</td></tr>
+<tr><td>Asile</td><td>immediately east of the Aucilla River</td><td>Aucilla River (early maps: Ocilla River)</td><td>yes</td><td>A</td></tr>
+<tr><td>Arapaha</td><td>on the Alapaha River, south Georgia / north Florida border</td><td>Alapaha River; Alapaha (GA)</td><td>yes</td><td>A/B: presumed derivation</td></tr>
+<tr><td>La Chua (&#x27;chua&#x27;)</td><td>Alachua Sink / Paynes Prairie</td><td>Alachua (Seminole band c. 1740s; county; city)</td><td>probable</td><td>B: the Timucua etymon &#x27;chua&#x27; = sinkhole is tentative</td></tr>
+<tr><td>Guacara</td><td>Suwannee River</td><td>(a) Suwannee &lt; Spanish &#x27;San Juan&#x27;; (b) Wakulla &lt; Guacara</td><td>contested</td><td>C: (b) is uncited; Gatschet instead links Wakulla to Creek &#x27;whip-poor-will&#x27;</td></tr>
+<tr><td>Basisa</td><td>Jefferson County, FL; on Gatschet&#x27;s Timucua–Apalachee boundary</td><td>Wacissa River; Wacissa (FL)</td><td>probable</td><td>B: Gatschet calls Wacissa/Basisa a river with a Timucua name; no etymology given</td></tr>
+<tr><td>(none found)</td><td>St. Johns County</td><td>Tocoi</td><td>claimed only</td><td>C: &#x27;Timucuan word for water lily&#x27; is unsourced</td></tr>
+<tr><td>(Muskogean, not Timucua)</td><td>Columbia / Suwannee counties</td><td>Ichetucknee River</td><td></td><td>A: Muskogean (Bright 2004)</td></tr>
+<tr><td>Acuera (region)</td><td>along the Ocklawaha River</td><td>Ocklawaha River (Creek &#x27;ak-lowahe&#x27;, muddy)</td><td>no (replaced)</td><td>A</td></tr>
+<tr><td>Saturiwa</td><td>mouth of the St. Johns River, Jacksonville</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Tacatacuru</td><td>Cumberland Island, GA</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Mocama</td><td>coast, St. Simons Island to south of the St. Johns</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Utina (Agua Dulce)</td><td>St. Johns River, Palatka to Lake George</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Icafui</td><td>Georgia mainland north of the Satilla</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Cascangue</td><td>Georgia mainland north of the Satilla</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Yufera</td><td>coast opposite Cumberland Island</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Ibi</td><td>inland from Yufera, GA</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Oconi</td><td>east side of the Okefenokee Swamp, GA</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Potano</td><td>Alachua County</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Northern Utina</td><td>between the Suwannee and St. Johns</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Yustaga</td><td>between the Suwannee and Aucilla</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Mocoso</td><td>east shore of Tampa Bay</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Urriparacoxi</td><td>SE Lake / SW Orange County (a title, &#x27;war prince&#x27;)</td><td>(none found)</td><td>no</td><td></td></tr>
+<tr><td>Utinahica</td><td>south Georgia mission</td><td>(none found)</td><td>no</td><td></td></tr>
+</tbody>
+</table></div>
+
+<h4>Files</h4>
+<ul>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/forms.csv">forms</a>: every word form, with its source spelling and normalized IPA</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/cognates.csv">cognates</a>: automated cognate sets</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/comparisons.csv">comparisons</a>: each Southeastern form against Timucua, with similarity scores</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/tests.csv">tests</a>: the 32 aggregate tests</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/candidates.csv">candidates</a>: 156 candidate-loan rows, both directions</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/place_names.csv">place names</a>: the 24 names below, with notes and sources</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/db/project-phaistos.sqlite">SQLite database</a>: the same data, with ready-made views</li>
+<li><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/tables/southeast_wordlist.csv">Southeast wordlist</a>: one row per concept, one column per language</li>
+</ul>
+<p class="small">Wordlists come from <a href="https://asjp.clld.org/">ASJP</a>, and the borrowing workflow follows <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10445856/">List and Forkel (2022)</a>. Data keep their source licences; code is MIT.</p>
+</details>
+</div>
+
+<div class="entry">
+<h3><a href="https://denc-dev.github.io/irish-lang-research/">Síneadh: contemporary Irish, Gaelscoileanna and the internet</a></h3>
+<p class="meta"><em>Ongoing, 2026</em></p>
+<p class="links"><a href="https://github.com/DenC-dev/irish-lang-research/blob/main/paper/sineadh.pdf">paper</a> / <a href="https://denc-dev.github.io/irish-lang-research/">website</a> / <a href="https://github.com/DenC-dev/irish-lang-research">code</a> / <a href="https://github.com/DenC-dev/irish-lang-research/blob/main/docs/gaps.md">open questions</a></p>
+<p>A look at the Irish taught in Gaelscoileanna (Irish-medium schools) and the Irish people write online, using a small rule-based tool and two <a href="https://universaldependencies.org/">Universal Dependencies</a> treebanks. In contexts where edited Irish almost always marks lenition, tweets leave it unwritten 9.5% of the time against 1.2% in edited text, and later tweets from the 2010s drop fewer fadas than earlier ones. The name comes from <i>síneadh fada</i>, the Irish length mark, whose presence or absence turned out to be the most reliable signal in the data.</p>
+</div>
+
+<div class="entry">
+<h3>Reading the Khitan small script</h3>
+<p class="meta"><em>Early stage, 2026</em></p>
+<p class="links">starting point: <a href="https://www.degruyterbrill.com/document/isbn/9789047443513/html">Kane, <i>The Kitan Language and Script</i> (2009)</a></p>
+<p>The Khitan small script was used under the Liao dynasty (916–1125) in northern China and is still only partly read. Its language was very likely a distant relative of Mongolian. I’m starting from Kane’s readings and testing whether NLP methods, comparison with Mongolic languages and Chinese texts written alongside Khitan ones can push them further.</p>
+</div>
+
+<footer>Last updated November 2026.</footer>
+</main>
+
+<div id="croc" aria-hidden="true"><svg width="220" height="70" viewBox="0 0 220 70" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 40 C30 34 50 28 70 27 L140 26 C155 25 165 27 175 30 L212 34 C216 36 215 39 211 40 L176 42 C166 46 150 47 140 46 L70 46 C50 46 30 44 4 40 Z"></path>
+<path d="M76 27 l5 -6 l5 6 l5 -6 l5 6 l5 -6 l5 6 l5 -6 l5 6 l5 -6 l5 6 l5 -6 l5 6"></path>
+<path d="M162 27 q5 -7 10 0"></path>
+<circle cx="167" cy="27" r="1.6"></circle>
+<path d="M176 37 L210 37"></path>
+<path d="M182 37 l3 2.5 l3 -2.5 l3 2.5 l3 -2.5 l3 2.5 l3 -2.5"></path>
+<path d="M88 46 q-1 8 -7 13 l9 0"></path><path d="M148 46 q-1 8 -7 13 l9 0"></path>
+<path d="M100 46 q2 7 0 12" stroke="#8a8a8a"></path><path d="M160 46 q2 7 0 12" stroke="#8a8a8a"></path>
+</svg><div><i>lafaek</i>: in the Timorese story, the island of Timor is an old crocodile.</div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  var body = document.body, main = document.querySelector('main');
+  var toast = document.getElementById('toast'), toastTimer;
+  function say(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toast.classList.remove('show'); }, 3200);
+  }
+
+  var name = document.getElementById('name');
+  var spellings = ['Dennis Crowley', '/\u02c8d\u025bn\u026as \u02c8k\u0279a\u028ali/'];
+  var spelling = 0;
+  name.addEventListener('click', function () {
+    spelling = (spelling + 1) % spellings.length;
+    name.textContent = spellings[spelling];
+  });
+
+  var croc = document.getElementById('croc');
+  function lafaek() {
+    croc.classList.remove('go');
+    void croc.offsetWidth;
+    croc.classList.add('go');
+  }
+
+  var FADA = {a: '\u00e1', e: '\u00e9', i: '\u00ed', o: '\u00f3', u: '\u00fa', A: '\u00c1', E: '\u00c9', I: '\u00cd', O: '\u00d3', U: '\u00da'};
+  var fadaOn = false;
+  function fada() {
+    if (fadaOn) return;
+    fadaOn = true;
+    var walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT), saved = [], node;
+    while ((node = walker.nextNode())) {
+      saved.push([node, node.nodeValue]);
+      node.nodeValue = node.nodeValue.replace(/[aeiouAEIOU]/g, function (v) { return FADA[v]; });
+    }
+    say('A fada on every vowel.');
+    setTimeout(function () {
+      saved.forEach(function (s) { s[0].nodeValue = s[1]; });
+      fadaOn = false;
+    }, 6000);
+  }
+
+  var KONAMI = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+  var keys = [], typed = '';
+  document.addEventListener('keydown', function (ev) {
+    if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var k = ev.key.length === 1 ? ev.key.toLowerCase() : ev.key;
+    keys.push(k);
+    if (keys.length > KONAMI.length) keys.shift();
+    if (keys.join(',') === KONAMI.join(',')) {
+      keys = [];
+      body.classList.toggle('rec');
+    }
+    if (k.length === 1 && /[a-z]/.test(k)) {
+      typed = (typed + k).slice(-12);
+      if (/lafaek$/.test(typed)) { typed = ''; lafaek(); }
+      else if (/fada$/.test(typed)) { typed = ''; fada(); }
+    }
+  });
+
+  console.log('%cHello, source reader.', 'font: 16px Georgia, serif');
+  console.log('Everything behind the Timucua section is open: https://github.com/Project-Phaistos/project-timacua\nA few words do things on this page if you type them. Start with the Tetun word for crocodile.');
+})();
+</script>
+</body>
+</html>
