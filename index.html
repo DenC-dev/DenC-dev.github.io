@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dennis Crowley</title>
-<meta name="description" content="Dennis Crowley: computational work on the languages of Timor, Timucua, contemporary Irish and the Khitan small script.">
+<meta name="description" content="Dennis Crowley: research on the languages of Timor, Timucua and the Khitan small script, and on post-colonial violence in Indonesia and Malaysia.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg stroke='%231a1a1a' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M16 5v22M6.5 10.5l19 11M6.5 21.5l19-11'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 body{margin:0;background:#fff;color:#1a1a1a;font-family:Charter,'Bitstream Charter','Sitka Text',Cambria,Georgia,serif;font-size:18px;line-height:1.6}
@@ -52,7 +52,7 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
 <p id="rec-note">Reconstruction mode. Every form on this page is now unattested.</p>
 <h1 id="name">Dennis Crowley</h1>
 
-<p>I’m a political science student at Florida State University, where I also work as a research assistant in the political science department. Most of my own research is about languages. I’m head researcher at Phaistos Labs, where our team of four works on the Austronesian languages of Timor and on Timucua, an extinct language of northern Florida. I’ve also started working on the Khitan small script.</p>
+<p>I’m a political science student at Florida State University, where I also work as a research assistant in the political science department. Most of my own research is about languages. I’m head researcher at Phaistos Labs, where our team works on the Austronesian languages of Timor and on Timucua, an extinct language of northern Florida. I’ve also started working on the Khitan small script.</p>
 
 <p>I mostly use computational methods, like automated cognate detection and phylogenetic trees, on languages that don’t have much data behind them. Wherever I can, the code and data go up on GitHub so anyone can rerun the analysis.</p>
 
@@ -72,20 +72,20 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
 <h3><a href="https://denc-dev.github.io/liabut/">Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor’s Austronesian languages</a></h3>
 <p class="meta"><em>Liabut. Phaistos Labs working paper, version 4, November 2026 (not peer reviewed)</em></p>
 <p class="links"><a href="https://github.com/DenC-dev/liabut/blob/main/paper/liabut.pdf">paper</a> / <a href="https://github.com/DenC-dev/liabut/blob/main/paper/liabut_supplement.pdf">supplement</a> / <a href="https://denc-dev.github.io/liabut/">website</a> / <a href="https://github.com/DenC-dev/liabut">code and data</a> / <a href="https://github.com/DenC-dev/liabut/blob/main/REPLICATION.md">how to reproduce</a></p>
-<p>Hull groups Idaté and Lakalei with Mambae, Kemak and Tokodede, while Grimes and Edwards (2026) put them in Timor-Babar, the group defined by the sound change *p &gt; h. I tested both classifications against <a href="https://github.com/lessersunda/lexirumah-data">LexiRumah</a> word lists with a plan registered before the analysis: automated cognate detection, Bayesian and maximum-likelihood trees, sound-change evidence and contact-aware trees. The pre-registered verdict is unresolved: the vocabulary doesn’t settle where Idaté and Lakalei belong. On a second question, whether Welaun is a Tetun dialect or a Central Timor language, the evidence leans toward Central Timor, as Edwards argued, once borrowable words are set aside. The name is Tetun: <i>lia</i> ‘word’ plus <i>abut</i> ‘root’.</p>
+<p>Two published classifications disagree about where Idaté and Lakalei, two small languages of Timor-Leste, belong. I compared <a href="https://github.com/lessersunda/lexirumah-data">word lists</a> from across the island to see which one the vocabulary backs, and wrote down my tests and how I’d read them before running anything. So far the vocabulary can’t settle it, which is why the repo includes a packet for specialists to check the cognate judgments.</p>
 </div>
 
 <div class="entry">
 <h3><a href="https://project-phaistos.github.io/project-timacua/">Recovering Timucua: A Computer-Assisted Framework for Text Analysis and Contact Detection in Mikasuki and Muscogee</a></h3>
 <p class="meta"><em>Phaistos Labs research proposal and pilot database, 2026</em></p>
 <p class="links"><a href="https://project-phaistos.github.io/project-timacua/">website</a> / <a href="https://github.com/Project-Phaistos/project-timacua">database</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/Wordlist-metadata.json">CLDF</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/db/project-phaistos.sqlite">SQLite</a></p>
-<p>Timucua is an extinct language isolate from northern Florida, written down in a large bilingual corpus produced between 1612 and 1635. The project has two parts: automatically glossing the Timucua texts, and testing whether Timucua left borrowed words in Mikasuki or Muscogee. The pre-registered pilot for the second part found no Timucua layer, and the same test can only rule out a large one.</p>
+<p>Timucua was spoken in northern Florida until the 1700s, and Spanish missionaries wrote down a surprising amount of it. I wanted to know whether it left any words behind in Mikasuki or Muscogee, the languages of the Seminole and Miccosukee. The pilot found nothing, but the test is only sensitive enough to catch a lot of borrowing, so a small trace could still be there.</p>
 <details>
 <summary>Pilot data and results</summary>
 
 <h4>Background</h4>
-<p>The 1612 catechisms are the earliest writing in any Native language of what is now the United States. Besides the printed texts there are two letters written by native speakers in the mid-1600s, and a modern reference grammar (<a href="https://www.nebraskapress.unl.edu/nebraska/9781496237781/the-timucua-language/">Broadwell 2024</a>). Contact could have happened in two windows: Georgia-era captive-taking around 1659 to 1715, and Seminole settlement of Florida around 1750 to 1763. Comparing Georgia-era Hitchiti with Florida Mikasuki is the main way to tell them apart.</p>
-<p>The glossing half is waiting on access to Broadwell’s corpus. Its scoring code is already in the repository.</p>
+<p>The 1612 catechisms are the earliest writing in any Native language of what is now the United States. There are also two letters written by Timucua speakers in the mid-1600s, and George Aaron Broadwell published a full <a href="https://www.nebraskapress.unl.edu/nebraska/9781496237781/the-timucua-language/">reference grammar</a> in 2024. If Timucua words did make it into Mikasuki or Muscogee, it most likely happened when Georgia groups took Timucua captives (about 1659 to 1715) or when the Seminole settled Florida (about 1750 to 1763). Comparing Georgia-era Hitchiti with Florida Mikasuki is how I try to tell those apart.</p>
+<p>The project’s other half, automatically glossing the Timucua texts, is waiting on access to Broadwell’s corpus. The code to score it is already in the repo.</p>
 
 <h4>What’s in the database</h4>
 <p>67 languages, 100 concepts, 6,799 word forms and 2,424 cognate judgments, released as a CLDF wordlist and an SQLite database.</p>
@@ -103,12 +103,12 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
 
 <h4>Findings</h4>
 <ul>
-<li>No Timucua layer in Mikasuki, the pre-registered test: z = 0.64, p = 0.26. Timucua ranks 29th of 51 candidate donors, and every Creek, measure and robustness variant agrees.</li>
-<li>The null has limits. The same design picks up inheritance and pidginization but misses documented Yuchi–Creek and Natchez–Creek contact at 33 to 38 concepts, so it rules out only a large layer.</li>
-<li>The three Mikasuki words with no Muskogean cognate that 1880s Hitchiti also covers (who, tree, fire) are all attested in Hitchiti, so they predate the move into Florida.</li>
-<li>Apalachee against Timucua is null too (z = −0.70).</li>
-<li>A post hoc lead runs the other way, from Muskogean into Timucua: <i>efa</i> ‘dog’, <i>neha</i> ‘grease’ and <i>ilake</i> ‘night’.</li>
-<li>On method, a plain permutation test flags 8 to 30% of unrelated language pairs. The two-way rank rule used here brings that down to about 2%.</li>
+<li>Mikasuki shows no Timucua layer (z = 0.64, p = 0.26). Timucua comes in 29th of 51 possible donor languages, and Creek and every robustness check say the same thing.</li>
+<li>That null only goes so far. The same test easily picks up inherited words and a pidgin, but it also misses the documented Yuchi–Creek and Natchez–Creek contact, so it can only rule out a large layer.</li>
+<li>Three Mikasuki words with no match anywhere else in Muskogean (who, tree, fire) already show up in 1880s Hitchiti, so they were there before the move to Florida.</li>
+<li>Apalachee shows nothing either (z = −0.70).</li>
+<li>The one interesting lead goes the other way. Timucua <i>efa</i> ‘dog’, <i>neha</i> ‘grease’ and <i>ilake</i> ‘night’ could have come from Muskogean. I didn’t plan to test that, so for now it’s just a lead.</li>
+<li>A side result on method: a plain permutation test calls 8 to 30% of unrelated language pairs related. The two-way rank rule I used cuts that to about 2%.</li>
 </ul>
 
 <h4>All 32 tests</h4>
@@ -199,17 +199,16 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
 </div>
 
 <div class="entry">
-<h3><a href="https://denc-dev.github.io/irish-lang-research/">Síneadh: contemporary Irish, Gaelscoileanna and the internet</a></h3>
-<p class="meta"><em>Ongoing, 2026</em></p>
-<p class="links"><a href="https://github.com/DenC-dev/irish-lang-research/blob/main/paper/sineadh.pdf">paper</a> / <a href="https://denc-dev.github.io/irish-lang-research/">website</a> / <a href="https://github.com/DenC-dev/irish-lang-research">code</a> / <a href="https://github.com/DenC-dev/irish-lang-research/blob/main/docs/gaps.md">open questions</a></p>
-<p>A look at the Irish taught in Gaelscoileanna (Irish-medium schools) and the Irish people write online, using a small rule-based tool and two <a href="https://universaldependencies.org/">Universal Dependencies</a> treebanks. In contexts where edited Irish almost always marks lenition, tweets leave it unwritten 9.5% of the time against 1.2% in edited text, and later tweets from the 2010s drop fewer fadas than earlier ones. The name comes from <i>síneadh fada</i>, the Irish length mark, whose presence or absence turned out to be the most reliable signal in the data.</p>
+<h3><a href="https://cosspp.fsu.edu/polisci/grad-students/seng-yee-sin/">Minority Power Concentration and Post-Colonial Violence: Colonial Legacy in Indonesia and Malaysia</a></h3>
+<p class="meta"><em>Research assistant to Seng Yee Sin, FSU Department of Political Science, since September 2026</em></p>
+<p>Seng Yee Sin’s project looks at how colonial rule concentrated power in minority groups, especially the ethnic Chinese, and how that shaped violence in Indonesia and Malaysia after independence. I help build the datasets, mostly by tracking down archival sources and coding incidents from historical accounts.</p>
 </div>
 
 <div class="entry">
 <h3>Reading the Khitan small script</h3>
 <p class="meta"><em>Early stage, 2026</em></p>
 <p class="links">starting point: <a href="https://www.degruyterbrill.com/document/isbn/9789047443513/html">Kane, <i>The Kitan Language and Script</i> (2009)</a></p>
-<p>The Khitan small script was used under the Liao dynasty (916–1125) in northern China and is still only partly read. Its language was very likely a distant relative of Mongolian. I’m starting from Kane’s readings and testing whether NLP methods, comparison with Mongolic languages and Chinese texts written alongside Khitan ones can push them further.</p>
+<p>The Khitan small script was used during the Liao dynasty (916–1125) in northern China, and only part of it can be read today. Its language was probably a distant relative of Mongolian. I’m just getting started, working from Kane’s readings and seeing how much further NLP methods, Mongolic cognates and the Chinese texts written alongside Khitan ones can take them.</p>
 </div>
 
 <footer>Last updated November 2026.</footer>
