@@ -285,6 +285,7 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
       typed = (typed + k).slice(-12);
       if (/lafaek$/.test(typed)) { typed = ''; lafaek(); }
       else if (/fada$/.test(typed)) { typed = ''; fada(); }
+      else if (/kilroy$/.test(typed)) { typed = ''; say('Kilroy was here.'); }
     }
   });
 
