@@ -79,8 +79,15 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
 <li><strong>Several broader groupings receive no lexical support.</strong> Hull’s Fabronic and the Timor-Babar / Eastern Timor groupings receive 0–3% bootstrap support or posterior support of 0.00 across the tested codings. This is a finding about the vocabulary, not a refutation of groups defined by sound change.</li>
 <li><strong>Welaun is more consistent with Central Timor once borrowable vocabulary is separated.</strong> The model-based estimate is 0.86, while its Tetun resemblance is concentrated in borrowable words.</li>
 </ul>
-<h4>Research deliverables</h4>
-<p>The project produced a reproducible working paper and supplement, plus machine-readable comparative datasets: 14,401 forms transcribed from 257 comparative tables; reflex atlases covering 8,426 expert-coded and 4,978 automatically extracted tokens (94% agreement); eight sound-change profiles across 65 Timor-region languages; and a classification of 740 Tetun look-alikes, including 21 probable loans.</p>
+<h4>Computational-linguistics deliverables</h4>
+<p>The project contributes reusable data and evaluation material for computational work on under-documented languages:</p>
+<ul>
+<li><strong>A machine-readable comparative corpus:</strong> 14,401 lexical forms transcribed from 257 comparative tables, with derived datasets that make the source evidence inspectable and reusable for lexical comparison and cognate research.</li>
+<li><strong>A human-checked extraction resource:</strong> reflex atlases containing 8,426 expert-coded tokens alongside 4,978 automatically extracted tokens, with 94% agreement. This provides a concrete point of comparison for evaluating automated extraction against expert-coded forms.</li>
+<li><strong>Cross-language phonological features:</strong> eight sound-change profiles covering 65 Timor-region languages, suitable as structured inputs for testing phonological correspondence and subgrouping methods.</li>
+<li><strong>A borrowing-detection case study:</strong> a classification of 740 Tetun look-alikes, including 21 probable loans, to help separate inherited cognates from contact-driven lexical similarity.</li>
+<li><strong>Reproducible inference:</strong> pre-registered hypotheses, principal estimates, a full results report and replication instructions, allowing other researchers to rerun the analysis and compare alternative codings.</li>
+</ul>
 <p class="links"><a href="https://github.com/DenC-dev/liabut/blob/main/results/principal_estimates.csv">principal estimates</a> / <a href="https://github.com/DenC-dev/liabut/tree/main/derived">derived datasets</a> / <a href="https://github.com/DenC-dev/liabut/blob/main/results/REPORT.md">full results report</a> / <a href="https://github.com/DenC-dev/liabut/blob/main/REPLICATION.md">replication instructions</a></p>
 </div>
 
@@ -95,8 +102,15 @@ footer{margin-top:64px;font-size:14px;color:#6b6b6b}
 <li><strong>Three unusual Mikasuki forms are attested in 1880s Hitchiti</strong>—the words for “who,” “tree” and “fire”—placing them before the Seminole move to Florida rather than establishing them as Timucua loans.</li>
 <li><strong>The data leave a concrete research resource:</strong> 67 languages, 100 concepts, 6,799 forms, 2,424 cognate judgments, 32 aggregate tests and a catalogue of 24 place names.</li>
 </ul>
-<h4>Research deliverables</h4>
-<p>A downloadable CLDF wordlist and SQLite database, a searchable word-by-word comparison, candidate-loan tables, the complete test results and a sourced place-name register. These are usable outputs even though the pilot does not establish a Timucua loan layer. The separate text-analysis component—automatic glossing of the historical Timucua corpus—remains pending access to the corpus.</p>
+<h4>Computational-linguistics deliverables</h4>
+<p>The pilot leaves a reusable low-resource language dataset and a transparent test bed for historical contact analysis:</p>
+<ul>
+<li><strong>A standardized, interoperable lexical dataset:</strong> 6,799 forms from 67 languages and 2,424 cognate judgments, distributed in CLDF and SQLite formats. Researchers can query it, join it to other comparative resources and reuse it in computational phylogenetics or cognate-analysis workflows.</li>
+<li><strong>A reproducible contact-detection test suite:</strong> 32 documented tests, including the pre-registered Mikasuki comparison and rankings against 51 candidate donor languages. The results provide a baseline for evaluating alternative similarity metrics and donor-detection methods.</li>
+<li><strong>A curated historical-geographic resource:</strong> a sourced register of 24 place names that can support future work on toponymic evidence, historical language geography and candidate contact zones.</li>
+<li><strong>An inspectable negative result:</strong> the available data do not show a statistically detectable substantial Timucua-derived vocabulary layer. Publishing the forms, judgments and tests makes that result reproducible and gives future methods a baseline against which to test whether they detect weaker or more localized signals.</li>
+</ul>
+<p>The historical-text NLP component—automatic transcription, segmentation and glossing of the missionary Timucua corpus—is a proposed next-stage deliverable, not a completed result; it depends on obtaining usable corpus images or transcriptions.</p>
 <p class="links"><a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/forms.csv">all word forms</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/cognates.csv">cognate sets</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/tests.csv">all 32 tests</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/cldf/place_names.csv">place-name register</a> / <a href="https://github.com/Project-Phaistos/project-timacua/blob/main/db/project-phaistos.sqlite">SQLite database</a></p>
 
 </div>
